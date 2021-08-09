@@ -1,7 +1,6 @@
 package com.desafiobackendalura.AluraChallenger.Controller.Dto;
 
 import com.desafiobackendalura.AluraChallenger.Model.Categoria;
-
 import java.util.List;
 import java.util.stream.Collectors;
 

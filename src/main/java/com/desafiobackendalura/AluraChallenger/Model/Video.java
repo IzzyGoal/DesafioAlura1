@@ -7,9 +7,9 @@ import javax.persistence.*;
 @Builder
 @Entity(name = "videos")
 public class Video {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //valores atribuidos a chave primaria são gerados pela coluna de auto incremento do BD
     private Integer id;
 
     @Column(nullable = false)
@@ -81,5 +81,4 @@ public class Video {
     public void setCategoria(Categoria categoria) {
         this.categoria = categoria;
     }
-
 }

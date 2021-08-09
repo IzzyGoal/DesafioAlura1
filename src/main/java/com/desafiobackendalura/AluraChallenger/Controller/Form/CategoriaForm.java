@@ -4,6 +4,7 @@ import com.desafiobackendalura.AluraChallenger.Model.Categoria;
 import com.desafiobackendalura.AluraChallenger.Repositori.CategoriaRepository;
 
 public class CategoriaForm {
+
     private String tituloCategoria;
     private String corCategoria;
 

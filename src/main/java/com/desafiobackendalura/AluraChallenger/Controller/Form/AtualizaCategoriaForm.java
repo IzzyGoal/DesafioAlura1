@@ -2,7 +2,6 @@ package com.desafiobackendalura.AluraChallenger.Controller.Form;
 
 import com.desafiobackendalura.AluraChallenger.Model.Categoria;
 import com.desafiobackendalura.AluraChallenger.Repositori.CategoriaRepository;
-
 import javax.validation.constraints.NotBlank;
 
 public class AtualizaCategoriaForm {

@@ -14,13 +14,13 @@ public class VideoDto {
     public String titulo;
     public String descricao;
     public String url;
-    private Integer idCategoria;
 
     public VideoDto (Video video) {
         this.id = video.getId();
         this.titulo = video.getTitulo();
         this.descricao = video.getDescricao();
         this.url = video.getUrl();
+
 
     }
 

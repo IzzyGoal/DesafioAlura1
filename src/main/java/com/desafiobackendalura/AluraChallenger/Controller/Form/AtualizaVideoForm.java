@@ -4,8 +4,8 @@ import com.desafiobackendalura.AluraChallenger.Model.Video;
 import com.desafiobackendalura.AluraChallenger.Repositori.VideoRepository;
 import lombok.Getter;
 import lombok.Setter;
-
 import javax.validation.constraints.NotBlank;
+
 @Getter
 @Setter
 public class AtualizaVideoForm {
@@ -21,5 +21,4 @@ public class AtualizaVideoForm {
         video.setDescricao(this.descricao);
         return video;
     }
-
 }
